@@ -1,8 +1,8 @@
 #include "ApplicationCoreImpl.hpp"
 #include "drogon/drogon.h"
 
-#include <memory>
 #include <string>
+#include <memory>
 
 namespace nativium
 {

@@ -10,8 +10,8 @@ def run(params):
         },
         {
             "type": "symlink",
-            "source": os.path.join("modules"),
-            "target": os.path.join("modules"),
+            "source": "modules",
+            "target": "modules",
         },
         {
             "type": "replace-text",
@@ -28,7 +28,7 @@ def run(params):
             "path": "targets/linux/config/target.py",
             "list": [
                 {
-                    "old": '["Debug", "Release"]',
+                    "old": '["debug", "release"]',
                     "new": '["Release"]',
                 },
                 {
@@ -42,7 +42,7 @@ def run(params):
             "path": "targets/macos/config/target.py",
             "list": [
                 {
-                    "old": '["Debug", "Release"]',
+                    "old": '["debug", "release"]',
                     "new": '["Release"]',
                 },
                 {
@@ -60,7 +60,7 @@ def run(params):
             "path": "targets/windows/config/target.py",
             "list": [
                 {
-                    "old": '["Debug", "Release"]',
+                    "old": '["debug", "release"]',
                     "new": '["Release"]',
                 },
                 {
