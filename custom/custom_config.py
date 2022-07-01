@@ -29,7 +29,7 @@ def run(params):
             "list": [
                 {
                     "old": '["debug", "release"]',
-                    "new": '["Release"]',
+                    "new": '["release"]',
                 },
                 {
                     "old": '"assets_dir": ""',
@@ -43,7 +43,7 @@ def run(params):
             "list": [
                 {
                     "old": '["debug", "release"]',
-                    "new": '["Release"]',
+                    "new": '["release"]',
                 },
                 {
                     "old": '"assets_dir": ""',
@@ -61,7 +61,7 @@ def run(params):
             "list": [
                 {
                     "old": '["debug", "release"]',
-                    "new": '["Release"]',
+                    "new": '["release"]',
                 },
                 {
                     "old": '"assets_dir": ""',
