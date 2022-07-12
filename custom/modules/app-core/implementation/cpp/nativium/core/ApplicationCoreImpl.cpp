@@ -1,5 +1,4 @@
 #include "ApplicationCoreImpl.hpp"
-#include "drogon/drogon.h"
 
 #include <string>
 #include <memory>
