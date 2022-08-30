@@ -1,0 +1,5 @@
+http_server = interface +c {
+    static shared(): http_server;
+    initialize();
+    start();
+}
