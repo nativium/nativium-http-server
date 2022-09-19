@@ -1,4 +1,4 @@
-from conans import ConanFile
+from conan import ConanFile
 
 
 # -----------------------------------------------------------------------------
@@ -21,4 +21,4 @@ def configure(params={}):
 def requirements(params={}):
     conanfile: ConanFile = params["conanfile"]
 
-    conanfile.requires("drogon/1.7.5")
+    conanfile.requires("drogon/1.8.0")
