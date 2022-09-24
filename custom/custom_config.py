@@ -11,6 +11,11 @@ def run(params):
             "target": "modules",
         },
         {
+            "type": "copy-file",
+            "source": "cmake/dependencies.cmake",
+            "target": "cmake/dependencies.cmake",
+        },
+        {
             "type": "replace-text",
             "path": "core/const.py",
             "list": [
@@ -22,7 +27,7 @@ def run(params):
         },
         {
             "type": "replace-text",
-            "path": "targets/linux/config/target.py",
+            "path": "targets/linux/config/target_config.py",
             "list": [
                 {
                     "old": 'has_debug = True',
@@ -36,7 +41,7 @@ def run(params):
         },
         {
             "type": "replace-text",
-            "path": "targets/macos/config/target.py",
+            "path": "targets/macos/config/target_config.py",
             "list": [
                 {
                     "old": 'has_debug = True',
@@ -54,7 +59,7 @@ def run(params):
         },
         {
             "type": "replace-text",
-            "path": "targets/windows/config/target.py",
+            "path": "targets/windows/config/target_config.py",
             "list": [
                 {
                     "old": 'has_debug = True',
