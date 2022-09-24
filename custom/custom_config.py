@@ -11,6 +11,11 @@ def run(params):
             "target": "modules",
         },
         {
+            "type": "copy-file",
+            "source": "cmake/dependencies.cmake",
+            "target": "cmake/dependencies.cmake",
+        },
+        {
             "type": "replace-text",
             "path": "core/const.py",
             "list": [
