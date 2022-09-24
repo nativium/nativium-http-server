@@ -22,7 +22,7 @@ def run(params):
         },
         {
             "type": "replace-text",
-            "path": "targets/linux/config/target.py",
+            "path": "targets/linux/config/target_config.py",
             "list": [
                 {
                     "old": 'has_debug = True',
@@ -36,7 +36,7 @@ def run(params):
         },
         {
             "type": "replace-text",
-            "path": "targets/macos/config/target.py",
+            "path": "targets/macos/config/target_config.py",
             "list": [
                 {
                     "old": 'has_debug = True',
@@ -54,7 +54,7 @@ def run(params):
         },
         {
             "type": "replace-text",
-            "path": "targets/windows/config/target.py",
+            "path": "targets/windows/config/target_config.py",
             "list": [
                 {
                     "old": 'has_debug = True',
