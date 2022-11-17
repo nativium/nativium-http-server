@@ -35,10 +35,10 @@ Execute the following commands to build for Linux:
 ```
 git clone https://github.com/nativium/nativium.git nativium
 cd nativium
-python nativium.py custom install --path=../custom
-python nativium.py target linux setup
-python nativium.py target linux build
-python nativium.py target linux run
+python3 nativium.py custom install --path=../custom
+python3 nativium.py target linux setup
+python3 nativium.py target linux build
+python3 nativium.py target linux run
 ```
 
 # Build for macOS
@@ -48,10 +48,10 @@ Execute the following commands to build for macOS:
 ```
 git clone https://github.com/nativium/nativium.git nativium
 cd nativium
-python nativium.py custom install --path=../custom
-python nativium.py target macos setup
-python nativium.py target macos build
-python nativium.py target macos run
+python3 nativium.py custom install --path=../custom
+python3 nativium.py target macos setup
+python3 nativium.py target macos build
+python3 nativium.py target macos run
 ```
 
 # Build for Windows
@@ -61,10 +61,10 @@ Execute the following commands to build for Windows:
 ```
 git clone https://github.com/nativium/nativium.git nativium
 cd nativium
-python nativium.py custom install --path=../custom
-python nativium.py target windows setup
-python nativium.py target windows build
-python nativium.py target windows run
+python3 nativium.py custom install --path=../custom
+python3 nativium.py target windows setup
+python3 nativium.py target windows build
+python3 nativium.py target windows run
 ```
 
 Obs: On Windows the terminal needs to be opened as `administrator`, otherwise the `symlinks` will not be created.
