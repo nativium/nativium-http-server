@@ -21,4 +21,4 @@ def configure(params={}):
 def requirements(params={}):
     conanfile: ConanFile = params["conanfile"]
 
-    conanfile.requires("drogon/1.8.0")
+    conanfile.requires("drogon/1.9.10")
